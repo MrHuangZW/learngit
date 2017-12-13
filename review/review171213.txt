@@ -1,0 +1,32 @@
+今天复习了昨天的git命令
+一、首先建仓库：
+1、学习建文件夹命令 mkdir+文件名；例如 mkdir directory
+2、切换到此目录下面 执行命令：git init，仓库创建完成！
+
+二、创建文件并添加入仓库
+1、创建文件命令 touch+文件名；例如 touch file.txt
+2、把文件添加到要提交到仓库的队列中 git add+文件名；例如：git add file.txt
+3、把所有通知了git仓库要添加的文件提交到git仓库上，
+   git commit -m "引号里面是要写这次提交的备注"
+
+三、查看仓库当前状态和具体修改情况
+1、命令：git status 提示仓库的文件是否被修改过提交过 
+2、git diff +文件名；例如：git diff file.txt
+
+四、查看提交记录和版本回退
+1、命令：git log 查看提交的记录，只能查看当前版本到最初版本的记录。
+	git log --pretty=oneline 简化查看结果
+2、命令：git reflog 记录每一次提交和回退操作，
+		     方便版本的回退和恢复到回退之前的版本。
+
+3、回退命令：git reset --hard HEAD^ ;此命令回退一个版本，
+				     要回退两个版本就再加一个^，
+回退多个版本：git reset --hard HEAD~100
+
+4、如果要恢复到回退之前的版本，就要找到那个版本的id，然后执行命令
+git reset --hard +id 例如：git reset --hard add13546
+
+
+
+
+……
