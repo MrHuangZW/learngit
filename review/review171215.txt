@@ -1,0 +1,23 @@
+复习git第三天
+
+1、git init 创建本地git仓库
+2、git add filename 添加到暂存区
+3、git commit -m "日志" 提交到git仓库
+4、git status 查看git仓库状态 
+	git diff 文件名 查看修改内容[M C0
+5、git log 查看当前版本到最初的版本的git仓库操作
+	it log --pretty=oneline 简化查看log
+6、git reflog 查看所有历史
+7、git reset --hard HEAD^ 回退一个版本
+	git reset --hard HEAD~10 回退10个版本
+	git reset --hard+版本ID（用git reflog查看） 回退到指定版本
+8、git cheakout --文件名 从本地仓库下载下文件替换
+9、git reset HEAD 文件名，丢弃在暂存区的文件
+10、git remote add origin git@github.com:github的用户名/仓库名 
+把本地仓库与远程仓库链接
+11、git push -u origin master 推送本地仓库内容到远程仓库
+12、git clone git@github.com:github的用户名/仓库名
+	克隆远程仓库到本地
+
+
+
