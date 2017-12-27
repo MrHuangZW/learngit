@@ -1,2 +1,2 @@
-master:creating a new branch is quick and simple
+dev:creating a new branch is quick and simple
 -----------modify -------------
