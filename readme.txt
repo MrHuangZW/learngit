@@ -1,4 +1,4 @@
 dev:creating a new branch is quick and simple
 -----------modify ------------
 -----------devmodify----------
-git is free software
+git is a free software
