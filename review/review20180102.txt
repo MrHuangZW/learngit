@@ -1,0 +1,4 @@
+今天是2018第一天，begin learning and reviewing git。
+今天复习了 保存工作区现场
+git stash，把添加到暂存区的工作现场保存起来
+git stash pop 恢复现场
